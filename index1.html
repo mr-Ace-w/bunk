@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="ic.jpg">
+    <title>Bunker</title>
+
+<style> /* CSS */
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка */
+header {
+    background-color: rgb(19, 19, 19);
+    padding: 10px;
+    width: 98%;
+    margin: auto;
+    border: 3px rgb(199, 145, 80) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 0;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* Текстовий блок */
+.texx {
+    background-color: rgb(59, 59, 59);
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto;
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+h1, h2, h3, p {
+    color: aliceblue;
+}
+
+/* 📱 Адаптивність */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+    .texx {
+        width: 90%;
+        padding: 15px;
+    }
+    .texx h1 {
+        font-size: 1.2rem;
+    }
+}
+</style> <!-- CSS -->
+</head>
+
+<body> <!--BODY HTML-->
+
+<header><!--ГОЛОВА-->
+ <h1><b>BUNKER</b></h1>
+ <img src="ic.jpg" alt="logo">
+</header><!--ГОЛОВА-->
+    
+<div class="texx">
+    <h1><b>ВІТАЮ! Ви получили запрошення в БУНКЕР</b></h1>
+</div>
+
+</body>
+</html>
